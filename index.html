@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Harsh</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+
+        <div class="logo">Harsh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Harsh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>    
+
+    <section id="profile">
+
+        <div class="section__pic-container">
+            <img src="./assests/profilepic.jpg" alt="Harsh Profile Picture" class="profilepic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello , I'm</p>
+            <h1 class="title">Harsh</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/harsh-7297b61aa/"><img src="./assests/linkedin.png" 
+                     alt="linkedin" 
+                     class="icon" 
+                     onclick="location.href='https://www.linkedin.com/in/harsh-7297b61aa/'">
+                </a>     
+                <a href="https://twitter.com/h5rsh"><img src="./assests/x.png" 
+                    alt="X profile" 
+                    class="icon" 
+                    onclick="location.href='https://twitter.com/h5rsh'"
+                    height="20">
+                </a>    
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" alt="Experience Badge" class="icon">
+                        <h3>Experience</h3>
+                        <p>Fresher</br>Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assests/education.png" alt="Education Badge" class="icon">
+                        <h3>Education</h3>
+                        <p>Intermediate</br>B.Tech CS</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello, I'm Harsh, and I'm excited to welcome you to my temporary online space! I'm known for my cheerful disposition.
+                         I believe that a smile has the power to brighten anyone's day, and I make it a point to radiate positivity wherever I go. 
+                         With a thirst for knowledge, I consider myself a perpetual learner. Whether it's delving into the latest tech trends, mastering
+                          a new language, or confronting complex challenges, I'm passionate about acquiring wisdom and sharing it with others. Confidence
+                           is a defining trait of mine. I firmly believe in the influence of self-assurance to overcome obstacles and attain success. 
+                           Whether I'm addressing a crowd, guiding a team, or embarking on new adventures, I embrace every endeavor with unshakable confidence. 
+                           When it comes to problem-solving, I'm your go-to person. I thrive on uncovering innovative solutions to problems, regardless of their 
+                           size or complexity. My analytical mindset and unwavering determination make me a trusted resource for tackling challenges head-on. This 
+                           website serves as a temporary repository for my thoughts, experiences, and adventures. Join me as I share insights, reflections, and the 
+                           occasional dose of inspiration. Together, we'll navigate life's twists and turns with a smile, intelligence, confidence, and a knack 
+                           for problem-solving. Thank you for dropping by, and don't hesitate to reach out. I'm always up for a great conversation or 
+                           collaboration! Warm regards, Harsh</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" 
+             alt="arrow"
+             class="icon arrow"
+             onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" 
+                                 alt="checkmark"
+                                 class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>     
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" 
+                                 alt="checkmark"
+                                 class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>     
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" 
+                                 alt="checkmark"
+                                 class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>     
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" 
+                                 alt="checkmark"
+                                 class="icon"/>
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>     
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" 
+                                 alt="checkmark"
+                                 class="icon"/>
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>     
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" 
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assests/Projects/project1.gif" 
+                    alt="Website Design"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/nanasheesh/Mondrian-Art'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://nanasheesh.github.io/Mondrian-Art/'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assests/Projects/project2.gif" 
+                    alt="Website Design"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/nanasheesh/Tindog'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://nanasheesh.github.io/Tindog/'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assests/Projects/project3.gif" 
+                    alt="Website Design"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/nanasheesh/Web-Design'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://nanasheesh.github.io/Web-Design/'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" 
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#contact'"/>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./assests/email.png" 
+                alt="email icon" 
+                class="icon contact-icon email-icon"/>
+                <p><a href="mailto:hariom1203@gmail.com">hariom1203@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assests/linkedin.png" 
+                alt="linkedin icon" 
+                class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/harsh-7297b61aa/">Linkedin</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assests/x.png" 
+                alt="X icon" 
+                class="icon contact-icon"/>
+                <p><a href="https://twitter.com/h5rsh">X</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Harsh. All Rights Reserved</p>
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
